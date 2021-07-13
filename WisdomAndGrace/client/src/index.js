@@ -6,6 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import firebase from "firebase/app";
 
+///this is what connects firebase to our app, and we need to import it
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
 };
